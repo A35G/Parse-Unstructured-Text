@@ -15,7 +15,7 @@
         $parser = new ParsingText($txt_rep);
 
         echo $parser->parseText($str1);
-        echo "<br />".
+        echo "<br />";
         echo $parser->parseText($str2, array('Legend', 'Zelda'));
 
     } catch (Exception $e) {
